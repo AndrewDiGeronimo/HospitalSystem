@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<link rel="stylesheet" href="style.css" type="text/css">
+<title>FDU Hospital Home</title>
+</head>
+<header>
+  <h1> <a href="index.html"><img src="FDUHospitalLogo.png"/></a></h1>
+</header>
+<nav class="navbar">
+  <ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About Us</a></li>
+<li><a href="location.html">Location</a></li>
+<li><a href="login.html">Sign in</a></li>
+</ul>
+</nav>
+<body>
+  <h2> Add Hospital </h2>
+  <form id="subForm" action="addHospital.php" method="post" class="center">
+  <table class="center">
+		<tr>
+			<td> Hospital ID: <td>
+			<td> <input type = "text" name ="HospitalID"> </td>
+		</tr>
+		<tr>
+			<td> Hospital Name: <td>
+			<td> <input type = "text" name ="Hospital_Name"> </td>
+		</tr>
+        <tr>
+            <td> Hospital Address: <td>
+			<td> <input type = "text" name ="Hospital_Address"> </td>
+		</tr>
+		<tr>
+			<td> Hospital City: <td>
+			<td> <input type = "text" name ="Hospital_City"> </td>
+		</tr>
+        <tr>
+        </table>
+    <br>
+<input id="button" type="submit" value="submit" />
+</form>
